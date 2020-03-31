@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <div class="calculator">
+        <input class="screen" id='calc-input'/>
+            <div class="previous-total"></div>
+            <div class="current-total"></div>
+    
+        <div class="clear btn center" onclick="clicked('CE')">CE</div>
+        <div class="del btn center" onclick="clicked('DEL')">DEL</div>
+        <div class="divide btn center operator" onclick="clicked('%')">%</div>
+        <div class="seven btn center num" onclick="clicked('7')">7</div>
+        <div class="eight btn center num" onclick="clicked('8')">8</div>
+        <div class="nine btn center num" onclick="clicked('9')">9</div>
+        <div class="mult btn center operator" onclick="clicked('*')">*</div>
+        <div class="four btn center num" onclick="clicked('4')">4</div>
+        <div class="five btn center num" onclick="clicked('5')">5</div>
+        <div class="six btn center num" onclick="clicked('6')">6</div>
+        <div class="minus btn center operator" onclick="clicked('-')">-</div>
+        <div class="one btn center num" onclick="clicked('1')">1</div>
+        <div class="two btn center num" onclick="clicked('2')">2</div>
+        <div class="three btn center num" onclick="clicked('3')">3</div>
+        <div class="plus btn center operator" onclick="clicked('+')">+</div>
+        <div class="zero btn center num" onclick="clicked('0')">0</div>
+        <div class="equal btn center" onclick="clicked('=')">=</div>
+        <div class="period btn center num" onclick="clicked('.')">.</div>
+        
+    </div>
+</body>
+</html>
+
+    
